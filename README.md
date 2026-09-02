@@ -222,7 +222,14 @@ These constraints can be represented as three spheres:
 \left\| \mathbf{P} - \mathbf{C}_3 \right\| = r_3
 ```
 
-where $\mathbf{P}\$ is the unknown upper ball-joint position.
+where:
+- $\mathbf{P}$ is the unknown upper ball-joint position
+- $\mathbf{C}_1$ is the UCA front inner pickup
+- $\mathbf{C}_2$ is the UCA rear inner pickup
+- $\mathbf{C}_3$ is the current lower ball-joint position
+- $r_1$ is the UCA front-leg length
+- $r_2$ is the UCA rear-leg length
+- $r_3$ is the upright length
 
 A **trilateration algorithm** is used to determine the intersection of the three spheres.
 
