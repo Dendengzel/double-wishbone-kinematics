@@ -116,7 +116,7 @@ The solver evaluates the following parameters throughout suspension travel.
 
 The nominal design-position values are highlighted on the generated kinematic plots.
 
-double_wishbone_figures/suspension_kinematic_curves.png
+![diagram](double_wishbone_figures/suspension_kinematic_curves.png)
 
 **Figure 2.** Camber, toe, caster, KPI, scrub radius, and mechanical trail plotted against vertical wheel travel.
 
@@ -507,7 +507,7 @@ For each side of the vehicle, the solver:
 
 The intersection of the left and right contact-patch-to-instant-centre lines determines the front roll centre.
 
-double_wishbone_figures/front_roll_center_construction.png
+![diagram](double_wishbone_figures/front_roll_center_construction.png)
 
 **Figure 3.** Front-view roll-centre construction showing suspension geometry, instantaneous centres, contact patches, force lines, and the calculated front roll centre.
 
@@ -521,7 +521,7 @@ $$
 
 The calculation is repeated throughout the suspension sweep to determine roll-centre migration.
 
-double_wishbone_figures/roll_center_height.png
+![diagram](double_wishbone_figures/roll_center_migration.png)
 
 **Figure 4.** Front roll-centre height through symmetric vertical wheel travel.
 
