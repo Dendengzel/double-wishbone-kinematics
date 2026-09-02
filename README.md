@@ -43,7 +43,7 @@ The solver reconstructs the complete front suspension geometry in three dimensio
 - Chassis pickup points
 - Left and right suspension assemblies
 
-portfolio_figures/suspension_3d_model.png
+double_wishbone_figures/suspension_3d_model.png
 
 **Figure 1.** Complete 3D double-wishbone suspension model at the nominal design position.
 
@@ -117,7 +117,7 @@ The solver evaluates the following parameters throughout suspension travel.
 
 The nominal design-position values are highlighted on the generated kinematic plots.
 
-portfolio_figures/suspension_kinematic_curves.png
+double_wishbone_figures/suspension_kinematic_curves.png
 
 **Figure 2.** Camber, toe, caster, KPI, scrub radius, and mechanical trail plotted against vertical wheel travel.
 
@@ -506,7 +506,7 @@ For each side of the vehicle, the solver:
 
 The intersection of the left and right contact-patch-to-instant-centre lines determines the front roll centre.
 
-portfolio_figures/front_roll_center_construction.png
+double_wishbone_figures/front_roll_center_construction.png
 
 **Figure 3.** Front-view roll-centre construction showing suspension geometry, instantaneous centres, contact patches, force lines, and the calculated front roll centre.
 
@@ -520,7 +520,7 @@ $$
 
 The calculation is repeated throughout the suspension sweep to determine roll-centre migration.
 
-portfolio_figures/roll_center_height.png
+double_wishbone_figures/roll_center_height.png
 
 **Figure 4.** Front roll-centre height through symmetric vertical wheel travel.
 
@@ -642,7 +642,7 @@ When the program is executed, the primary engineering figures can be automatical
 The output structure is:
 
 ```text
-portfolio_figures/
+double_wishbone_figures/
 ├── suspension_3d_model.png
 ├── suspension_kinematic_curves.png
 ├── front_roll_center_construction.png
@@ -704,7 +704,7 @@ double-wishbone-kinematics/
 ├── double_wishbone_part1.py
 ├── requirements.txt
 │
-└── portfolio_figures/
+└── double_wishbone_figures/
     ├── suspension_3d_model.png
     ├── suspension_kinematic_curves.png
     ├── front_roll_center_construction.png
