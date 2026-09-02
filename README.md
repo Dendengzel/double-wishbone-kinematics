@@ -112,7 +112,6 @@ The solver evaluates the following parameters throughout suspension travel.
 - Front-view instant centres
 - Front roll-centre position
 - Roll-centre height above ground
-- Lateral roll-centre position
 - Roll-centre migration through suspension travel
 
 The nominal design-position values are highlighted on the generated kinematic plots.
