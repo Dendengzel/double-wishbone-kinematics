@@ -402,6 +402,8 @@ The lowest point of the wheel is determined by projecting the global downward di
 
 This allows the model to calculate the instantaneous tyre contact-patch centre while accounting for changes in wheel orientation throughout suspension travel.
 
+**IMPORTANT**: The suspension model **DOES NOT** account for proper tyre deformation during the wheel travel hence will provide inaccuracies in the model.
+
 ---
 
 # Scrub Radius
