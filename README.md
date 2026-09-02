@@ -131,12 +131,7 @@ At the nominal design position, the program calculates the fixed length of every
 For two points
 
 $$
-\mathbf{P}_1 =
-\begin{bmatrix}
-x_1 \\
-y_1 \\
-z_1
-\end{bmatrix}
+\mathbf{P}_1 = \begin{bmatrix} x_1 \\ y_1 \\ z_1 \end{bmatrix}
 $$
 
 and
