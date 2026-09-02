@@ -59,7 +59,7 @@ The model uses the following global coordinate convention:
 
 All coordinates and lengths are specified in **millimetres**.
 
-The suspension is defined using hardpoint coordinates for:
+The suspension is defined using hardpoint coordinates for the **left side** of the:
 
 - Lower control arm front inner pickup
 - Lower control arm rear inner pickup
@@ -73,7 +73,7 @@ The suspension is defined using hardpoint coordinates for:
 - Hub-axis reference point
 - Wheel radius
 
-The opposite side of the vehicle is generated automatically by reflecting the suspension geometry across the vehicle centre plane.
+The **right side** of the vehicle is generated automatically by reflecting the suspension geometry across the vehicle centre plane.
 
 Under reflection:
 
