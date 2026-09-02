@@ -43,7 +43,7 @@ The solver reconstructs the complete front suspension geometry in three dimensio
 - Chassis pickup points
 - Left and right suspension assemblies
 
-![diagram]double_wishbone_figures/suspension_3d_model.png
+![diagram] double_wishbone_figures/suspension_3d_model.png
 
 **Figure 1.** Complete 3D double-wishbone suspension model at the nominal design position.
 
