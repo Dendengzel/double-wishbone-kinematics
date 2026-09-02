@@ -458,7 +458,7 @@ Instead, the solver estimates the instantaneous motion of the upper and lower ba
 
 For a suspension parameter \(\theta\), the position derivative is approximated using a central finite difference:
 
-$$
+```math
 \frac{d\mathbf{P}}{d\theta}
 \approx
 \frac{
@@ -468,7 +468,7 @@ $$
 }{
 2\Delta\theta
 }
-$$
+```
 
 Only the Y-Z components are required for the front-view analysis.
 
