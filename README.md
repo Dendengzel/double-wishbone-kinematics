@@ -276,13 +276,13 @@ The tie-rod vector is projected onto the plane perpendicular to the steering axi
 
 The third orthogonal direction is obtained using the cross product:
 
-$$
+```math
 \hat{\mathbf{x}}
 =
 \hat{\mathbf{y}}
 \times
 \hat{\mathbf{z}}
-$$
+```
 
 The original wheel-centre and hub-axis coordinates are transformed into this local upright reference frame.
 
