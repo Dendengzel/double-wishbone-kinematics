@@ -504,11 +504,13 @@ The intersection of the left and right contact-patch-to-instant-centre lines det
 
 The roll-centre height is measured relative to the instantaneous ground plane:
 
-$$
-h_{RC}
+```math
+h_{\mathrm{RC}}
 =
-Z_{RC}-Z_{\mathrm{ground}}
-$$
+Z_{\mathrm{RC}}
+-
+Z_{\mathrm{ground}}
+```
 
 The calculation is repeated throughout the suspension sweep to determine roll-centre migration.
 
