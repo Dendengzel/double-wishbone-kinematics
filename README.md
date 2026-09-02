@@ -349,22 +349,11 @@ The sign convention used is:
 
 If
 
-$$
-\Delta \mathbf{P}
-=
-\mathbf{UBJ}-\mathbf{LBJ}
-$$
+`steering_axis = UBJ - LBJ`
 
 then:
 
-$$
-\theta_{\mathrm{caster}}
-=
-\tan^{-1}
-\left(
-\frac{-\Delta X}{\Delta Z}
-\right)
-$$
+`caster = atan2(-ΔX, ΔZ)`
 
 ---
 
