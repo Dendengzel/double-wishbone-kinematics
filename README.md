@@ -182,7 +182,7 @@ The lower ball joint rotates around the axis connecting the front and rear lower
 
 Because this axis can have an arbitrary orientation in three-dimensional space, the rotation is calculated using **Rodrigues' rotation formula**.
 
-For a vector \(\mathbf{v}\), rotation through angle \(\theta\) around the unit axis \(\mathbf{k}\) is:
+For a vector $\mathbf{v}$, rotation through angle $\theta\$ around the unit axis $\mathbf{k}\$ is:
 
 $$
 \mathbf{v}_{rot}
