@@ -702,7 +702,7 @@ The recommended repository structure is:
 double-wishbone-kinematics/
 │
 ├── README.md
-├── double_wishbone_part1.py
+├── double_wishbone_kinematics.py
 ├── requirements.txt
 │
 └── double_wishbone_figures/
@@ -805,13 +805,13 @@ Run the main Python script from the repository directory.
 ### Windows
 
 ```bash
-python double_wishbone_part1.py
+python double_wishbone_kinematics.py
 ```
 
 ### macOS / Linux
 
 ```bash
-python3 double_wishbone_part1.py
+python3 double_wishbone_kinematics.py
 ```
 
 The program will:
