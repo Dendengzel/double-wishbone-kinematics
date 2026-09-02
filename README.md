@@ -1028,9 +1028,3 @@ University College London
 [LinkedIn](https://www.linkedin.com/in/denzel-kurniadi-h)
 
 ---
-
-# License
-
-This project was developed as a personal engineering and educational project.
-
-If this repository is made publicly available as open-source software, a recognised open-source license such as the MIT License can be added to the repository.
