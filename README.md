@@ -591,13 +591,13 @@ The following constraints are checked:
 - Wheel centre to hub-axis point
 
 For each link:
-
-$$
-e_L =
+```math
+e_L
+=
 L_{\mathrm{calculated}}
 -
 L_{\mathrm{design}}
-$$
+```
 
 Ideally:
 
