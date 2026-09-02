@@ -313,8 +313,8 @@ $$
 
 where:
 
-- $h_y$ and \(h_z\) are components of the wheel-axis vector
-- \(s\) identifies the left or right side of the vehicle
+- $h_y$ and $h_z\$ are components of the wheel-axis vector
+- $s$ identifies the left or right side of the vehicle
 
 ---
 
