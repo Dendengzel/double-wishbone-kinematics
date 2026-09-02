@@ -210,31 +210,19 @@ The unknown upper ball joint must remain:
 
 These constraints can be represented as three spheres:
 
-$$
-\left\|
-\mathbf{P}-\mathbf{C}_1
-\right\|
-=
-r_1
-$$
+```math
+\left\| \mathbf{P} - \mathbf{C}_1 \right\| = r_1
+```
+ 
+```math
+\left\| \mathbf{P} - \mathbf{C}_2 \right\| = r_2
+```
+ 
+```math
+\left\| \mathbf{P} - \mathbf{C}_3 \right\| = r_3
+```
 
-$$
-\left\|
-\mathbf{P}-\mathbf{C}_2
-\right\|
-=
-r_2
-$$
-
-$$
-\left\|
-\mathbf{P}-\mathbf{C}_3
-\right\|
-=
-r_3
-$$
-
-where \(\mathbf{P}\) is the unknown upper ball-joint position.
+where $\mathbf{P}\$ is the unknown upper ball-joint position.
 
 A **trilateration algorithm** is used to determine the intersection of the three spheres.
 
