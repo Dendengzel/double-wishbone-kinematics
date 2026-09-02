@@ -184,17 +184,15 @@ Because this axis can have an arbitrary orientation in three-dimensional space, 
 
 For a vector $\mathbf{v}$, rotation through angle $\theta\$ around the unit axis $\mathbf{k}\$ is:
 
-$$
-\mathbf{v}_{rot}
+```math
+\mathbf{v}_{\mathrm{rot}}
 =
-\mathbf{v}\cos\theta
+\mathbf{v}\cos(\theta)
 +
-(\mathbf{k}\times\mathbf{v})\sin\theta
+(\mathbf{k}\times\mathbf{v})\sin(\theta)
 +
-\mathbf{k}
-(\mathbf{k}\cdot\mathbf{v})
-(1-\cos\theta)
-$$
+\mathbf{k}(\mathbf{k}\cdot\mathbf{v})(1-\cos(\theta))
+```
 
 This provides the new lower ball-joint position for each suspension position.
 
