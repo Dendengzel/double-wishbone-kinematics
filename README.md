@@ -413,19 +413,18 @@ The sign convention is:
 
 The calculation is:
 
-$$
+```math
 SR
 =
-s
-\left(
-Y_{CP}-Y_{SA}
+s\left(
+Y_{\mathrm{CP}} - Y_{\mathrm{SA}}
 \right)
-$$
+```
 
 where:
 
-- \(Y_{CP}\) = contact-patch lateral coordinate
-- \(Y_{SA}\) = steering-axis ground-intersection lateral coordinate
+- $Y_{CP}$ = contact-patch lateral coordinate
+- $_{SA}$ = steering-axis ground-intersection lateral coordinate
 
 ---
 
