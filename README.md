@@ -353,7 +353,14 @@ If
 
 then:
 
-`caster = atan2(-ΔX, ΔZ)`
+```math
+\theta_{\mathrm{Caster}}
+=
+\tan^{-1}
+\left(
+\frac{\Delta X}{\Delta Z}
+\right)
+```
 
 where:
 - `ΔX` is the longitudinal difference between the upper and lower ball joints
