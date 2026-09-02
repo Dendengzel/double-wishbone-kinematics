@@ -424,7 +424,7 @@ Y_{\mathrm{CP}} - Y_{\mathrm{SA}}
 where:
 
 - $Y_{CP}$ = contact-patch lateral coordinate
-- $_{SA}$ = steering-axis ground-intersection lateral coordinate
+- $Y_{SA}$ = steering-axis ground-intersection lateral coordinate
 
 ---
 
@@ -445,8 +445,8 @@ $$
 
 where:
 
-- \(X_{SA}\) = longitudinal coordinate of the steering-axis ground intersection
-- \(X_{CP}\) = longitudinal coordinate of the tyre contact-patch centre
+- $X_{SA}$ = longitudinal coordinate of the steering-axis ground intersection
+- $X_{CP}$ = longitudinal coordinate of the tyre contact-patch centre
 
 ---
 
