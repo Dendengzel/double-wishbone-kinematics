@@ -368,14 +368,14 @@ The sign convention used is:
 
 > **Positive KPI = upper ball joint inboard of the lower ball joint.**
 
-$$
+```math
 \theta_{\mathrm{KPI}}
 =
 \tan^{-1}
 \left(
-\frac{-s\Delta Y}{\Delta Z}
+\frac{-s\,\Delta Y}{\Delta Z}
 \right)
-$$
+```
 
 ---
 
