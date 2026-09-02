@@ -355,6 +355,9 @@ then:
 
 `caster = atan2(-ΔX, ΔZ)`
 
+where:
+- `ΔX` is the longitudinal difference between the upper and lower ball joints
+- `ΔZ` is the vertical difference between the upper and lower ball joints
 ---
 
 ## Kingpin Inclination
