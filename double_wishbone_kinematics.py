@@ -1504,25 +1504,25 @@ def plot_suspension_side(ax, model, results, side_name, show_labels=True):
 
     # Only label plotted objects when requested, preventing duplicate legend entries.
     chassis_label = (
-        f"{side_name} chassis pickups"
+        f"chassis pickups"
         if show_labels
         else None
     )
 
     ball_joint_label = (
-        f"{side_name} ball joints"
+        f"ball joints"
         if show_labels
         else None
     )
 
     tie_rod_end_label = (
-        f"{side_name} tie rod ends"
+        f"tie rod ends"
         if show_labels
         else None
     )
 
     wheel_center_label = (
-        f"{side_name} wheel centre"
+        f"=wheel centre"
         if show_labels
         else None
     )
@@ -1604,7 +1604,7 @@ def plot_suspension_side(ax, model, results, side_name, show_labels=True):
         color="green",
         linewidth=2.5,
         label=(
-            f"{side_name} lower control arm"
+            f"lower control arm"
             if show_labels
             else None
         ),
@@ -1634,7 +1634,7 @@ def plot_suspension_side(ax, model, results, side_name, show_labels=True):
         color="magenta",
         linewidth=2.5,
         label=(
-            f"{side_name} upper control arm"
+            f"upper control arm"
             if show_labels
             else None
         ),
@@ -1651,7 +1651,7 @@ def plot_suspension_side(ax, model, results, side_name, show_labels=True):
         color="red",
         linewidth=3.0,
         label=(
-            f"{side_name} steering axis"
+            f"steering axis"
             if show_labels
             else None
         ),
@@ -1668,24 +1668,7 @@ def plot_suspension_side(ax, model, results, side_name, show_labels=True):
         color="orange",
         linewidth=3.0,
         label=(
-            f"{side_name} tie rod"
-            if show_labels
-            else None
-        ),
-    )
-
-    # --------------------------------------------------------
-    # Wheel rotation axis
-    # --------------------------------------------------------
-
-    ax.plot(
-        [wheel_center[0], hub_axis_point[0]],
-        [wheel_center[1], hub_axis_point[1]],
-        [wheel_center[2], hub_axis_point[2]],
-        color="gold",
-        linewidth=3.0,
-        label=(
-            f"{side_name} wheel axis"
+            f"tie rod"
             if show_labels
             else None
         ),
